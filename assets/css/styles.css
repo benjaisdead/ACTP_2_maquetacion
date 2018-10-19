@@ -1,0 +1,34 @@
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.navbar-inverse {
+  border-radius: 0;
+  margin-bottom: 0;
+  border: none;
+}
+.navbar-brand img{
+  height: 25px;
+}
+.header-barbershop {
+  background-image: url('../img/post-image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: calc(100vh - 50px);
+  padding-top: 150px;
+  position: relative;
+}
+.header-barbershop-title h1 {
+  position: absolute;
+  color: #fff;
+  font-size: 5em;
+}
+.header-barbershop-icon {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
